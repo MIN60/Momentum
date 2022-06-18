@@ -15,9 +15,14 @@ function deleteBtn(event){
     saveToDos();
 }
 
+function doneTodo(event){
+    event.target.classList.toggle("done");
+}
+
 function paintTodo(newTodo){
     const li = document.createElement("li");
     li.id = newTodo.id;
+    li.addEventListener("click", doneTodo);
 
     const span = document.createElement("span");
     span.innerText = newTodo.text;
