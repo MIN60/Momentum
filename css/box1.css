@@ -1,0 +1,40 @@
+#date{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 48px;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+
+#time{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 128px;
+    padding-left: 30px;
+    margin: 0px;
+    line-height: 1;
+}
+
+#username{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    padding-left: 30px;
+    margin: 0px;
+    line-height: 1;
+}
+
+#poem{
+    font-family: 'Gugi', cursive;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 30px;
+    line-height: 1;
+}
+
+#poemDetail{
+    font-family: 'Gugi', cursive;
+    padding-right: 30px;
+    margin: 0px;
+    line-height: 1;
+    text-align: right;
+}

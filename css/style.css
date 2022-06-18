@@ -1,5 +1,6 @@
 body{
     min-height: 100%;
+    overflow: hidden;
 }
 
 #boxes{
@@ -14,7 +15,6 @@ body{
     height: 90%;
     float: left;
     box-sizing: border-box;
-    text-align: right;
     padding-left: 10%;
     padding-right: 1%;
     padding-bottom: 3%;
@@ -25,15 +25,17 @@ body{
     height: 90%;
     float: right;
     box-sizing: border-box;
-    text-align: left;
     padding-right: 10%;
     padding-left: 1%;
+    padding-bottom: 3%;
 
 }
 
 #box1_user{
-    background-color: rgba( 255, 255, 255, 0.8 );
+    background-color: rgba( 255, 255, 255, 0.9 );
     height: 400px;
+    border-radius: 20px;
+    margin-top: 4%;
 }
 
 #box_group{
@@ -43,34 +45,38 @@ body{
 }
 
 #box2_weather{
-    background-color: rgba( 255, 255, 255, 0.8 );
+    background-color: rgba( 255, 255, 255, 0.9 );
     width: 48%;
     height: 300px;
     float: left;
     box-sizing: border-box;
     overflow: hidden;
+    border-radius: 20px;
     padding-right: 2%;
 }
 
 #box3_bookmarks{
-    background-color: rgba( 255, 255, 255, 0.8 );
+    background-color: rgba( 255, 255, 255, 0.9 );
     width: 48%;
     height: 300px;
     float: right;
     box-sizing: border-box;
+    border-radius: 20px;
     padding-left: 2%;
 }
 
 #box4_todo{
-    background-color: rgba( 255, 255, 255, 0.8 );
+    background-color: rgba(11, 9, 129, 0.9);
     height: 400px;
-    margin-top: 4%;
+    margin-top: 7%;
+    border-radius: 20px;
     overflow-y: scroll;
 }
 
 #box5{
-    background-color: rgba( 255, 255, 255, 0.8 );
+    background-color: rgba( 255, 255, 255, 0.9 );
     height: 300px;
     margin-top: 6.5%;
+    border-radius: 20px;
     overflow: hidden;
 }
