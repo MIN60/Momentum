@@ -25,8 +25,6 @@ function onGeoSuccess(position){
         weatherIcon.setAttribute('src', iconsrc);
         nowtemp.innerText=`${temp}°`;
         maxmin_temp.innerText = `최고 ${max_temp}°/최저 ${min_temp}°`;
-
-
     });
 
 }
