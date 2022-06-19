@@ -1,0 +1,55 @@
+#bookMarkTitle{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.container{
+    width: 100%;
+}
+
+.gooItem{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.gitItem{
+    padding: 10px;
+}
+
+#gooImg{
+    width: 50px;
+    border-radius: 10px;
+    float: left;
+    padding: 0 20px 0 30px;
+}
+
+#gitImg{
+    border-radius: 10px;
+    width: 50px;
+    float: left;
+    clear: both;
+    padding: 0 20px 0 30px;
+}
+
+#gooSearch{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    color: black;
+    clear: both;
+}
+
+#gitSearch{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    color: black;
+}

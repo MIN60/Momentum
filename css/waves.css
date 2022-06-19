@@ -35,7 +35,7 @@
 }
 
 .waves.wave4{
-    animation: animate2 15s linear infinite;
+    animation: animate2 5s linear infinite;
     z-index: 997;
     opacity: 0.7;
     animation-delay: -5s;
@@ -64,7 +64,7 @@
 #underwater{
     position: relative;
     display:block;
-    top:70%; 
+    top:75%; 
     bottom: 0;
     height: 100px;
     background-color: #0b0981;

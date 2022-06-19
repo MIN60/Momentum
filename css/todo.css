@@ -10,7 +10,7 @@
 
 #todoinput{
     font-family: 'Poppins', sans-serif;
-    width: 350px;
+    width: 90%;
     height: 30px;
     font-size: 20px;
     background: transparent;
@@ -35,7 +35,7 @@
 }
 
 #todo-list li{
-    width: 350px;
+    width: 83%;
     display: flex;
     justify-content: space-between;
     position: sticky;
