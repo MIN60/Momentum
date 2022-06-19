@@ -7,8 +7,7 @@ body{
 #boxes{
     width: 100%;
     height: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding: 5% 0 5% 0;
 }
 
 #p1{
@@ -16,9 +15,7 @@ body{
     height: 90%;
     float: left;
     box-sizing: border-box;
-    padding-left: 10%;
-    padding-right: 1%;
-    padding-bottom: 3%;
+    padding: 0 1% 3% 10%;
 }
 
 #p2{
@@ -26,10 +23,7 @@ body{
     height: 90%;
     float: right;
     box-sizing: border-box;
-    padding-right: 10%;
-    padding-left: 1%;
-    padding-bottom: 3%;
-
+    padding: 0 10% 3% 1%;
 }
 
 #box1_user{

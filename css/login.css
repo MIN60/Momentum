@@ -1,10 +1,5 @@
-*{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Black Han Sans', sans-serif; 
-}
-
-
 #login{
+    font-family: 'Black Han Sans', sans-serif; 
     position: absolute;
     width: 80%;
     height: 85%;
@@ -26,6 +21,7 @@
 }
 
 #logInput{
+    font-family: 'Black Han Sans', sans-serif; 
     text-align: center;
     width: 500px;
     height: 50px;
