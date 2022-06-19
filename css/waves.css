@@ -1,7 +1,7 @@
 .waves{
     position: absolute;
     display:block;
-    top:87%; 
+    top:62%; 
     bottom: 0;
     left: 0;
     width: 100%;
@@ -58,4 +58,14 @@
     100%{
         background-position-x: -1000px;
     }
+}
+
+
+#underwater{
+    position: relative;
+    display:block;
+    top:70%; 
+    bottom: 0;
+    height: 100px;
+    background-color: #0b0981;
 }

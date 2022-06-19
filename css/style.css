@@ -66,11 +66,13 @@ body{
 }
 
 #box4_todo{
+    position: relative;
     background-color: rgba(11, 9, 129, 0.9);
     height: 400px;
     margin-top: 7%;
     border-radius: 20px;
-    overflow:auto;
+    overflow-x:scroll;
+    overflow-x:hidden;
 }
 
 #box4_todo::-webkit-scrollbar{
