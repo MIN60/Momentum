@@ -6,7 +6,7 @@ const poem = document.querySelector("#poem");
 const poemDetail = document.querySelector("#poemDetail");
 
 const poems = [
-    {poem: "길 없는 바다가 그대의 대지이기에.",
+    {poem: "길 없는 바다가 그대의 대지이기에",
      detail:"-「淑女에게」, 최시한"},
     {poem: "바다는 비에 젖지 않는다.",
     detail:"-「노인과 바다」, 헤밍웨이"},
